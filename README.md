@@ -1,4 +1,4 @@
-# LinkHub
+# 🔗 LinkHub
 
 LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **MongoDB**. It lets users create personalized link pages by submitting a username and up to 8 URLs through a simple, clean interface. Users can then generate, view, and share their unique LinkHub page with customizable themes and pointer styles.
 
@@ -12,7 +12,7 @@ LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **Mong
 
 ---
 
-## Features
+## 🚀 Features
 
 - User-friendly form to input a username and up to 8 links  
 - Generates a unique LinkHub page per username  
@@ -61,26 +61,31 @@ LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **Mong
 
 /public
   ├─ /assets                  # Static assets like images, icons, etc.
-  ├─ /other-folders           # Additional public files and folders ```
+  ├─ /other-folders           # Additional public files and folders
+```
 
 ## Getting Started (for Developers)
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/CodzHorizon/linkhub.git  ```
+   git clone https://github.com/CodzHorizon/linkhub.git
+    ```
 
 2. Install dependencies  
    ```bash
-   npm install  ```
+   npm install
+   ```
 
 3. Create a .env.local file and add your MongoDB connection string:
    ```bash
    MONGODB_URI=your_mongodb_connection_string
-   NEXT_PUBLIC_HOST=http://localhost:3000  ```
+   NEXT_PUBLIC_HOST=http://localhost:3000
+    ```
    
 4. Run the development server
    ```bash
-   npm run dev  ```
+   npm run dev
+   ```
    
 5.Open http://localhost:3000 to view the app  
 
