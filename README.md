@@ -95,7 +95,6 @@ LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **Mong
 ---
 ## Author
 
-**Your Name**  
 - GitHub: [CodzHorizon](https://github.com/CodzHorizon)  
 - Email: kshitizsh.8@example.com  
 
