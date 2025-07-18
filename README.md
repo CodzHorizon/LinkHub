@@ -41,8 +41,10 @@ LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **Mong
 
 ---
 
-## Project Structure
 
+## 📁 Project Structure
+
+```plaintext
 /app
   ├─ /about/page.js           # Static About page
   ├─ /generate/
@@ -59,8 +61,7 @@ LinkHub is a Linktree clone built with **Next.js**, **Tailwind CSS**, and **Mong
 
 /public
   ├─ /assets                  # Static assets like images, icons, etc.
-  ├─ /other-folders           # Additional public files and folders
-
+  ├─ /other-folders           # Additional public files and folders ```
 
 ## Getting Started (for Developers)
 
