@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image';
+
 import React from 'react'
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -195,11 +195,9 @@ const GenerateClient = () => {
                                 <div className="profile_item w-18 h-18 sm:w-24 sm:h-24  border-2 rounded-full hover:border-gray-400/50 pointer transition-all duration-500 z-0 shadow-2xl ">
                                     <div className="w-full bg-white h-full flex items-center justify-center rounded-full active:scale-95 hover:scale-95 object-cover transition-all duration-500 overflow-hidden">
                                         {pic && isValidURL(pic) && !imageErrored ? (
-                                            <Image
+                                            <img
                                                 src={pic}
                                                 alt="Profile Preview"
-                                                width={96}
-                                                height={96}
                                                 className="rounded-full object-cover w-18 h-18 sm:w-24 sm:h-24"
                                                 onError={() => {
                                                     if (!imageErrored) {
