@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "LinkHub",
   description: "Your smart, customizable bio link tool.",
+  icons: {
+    icon: "/image.png",
+  },
 };
 
 export default function RootLayout({ children }) {
