@@ -58,10 +58,8 @@ export default async function Page({ params }) {
                 </Link>
                 <div className="w-full max-w-[24rem] mx-auto bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl ">
                     <div className="flex flex-col items-center text-center">
-                        <Image
+                        <img
                             alt="Profile Preview"
-                            width={96}
-                            height={96}
                             className="w-28 h-28 rounded-full object-cover shadow-lg mb-4 border-4 border-white"
                             src={user.pic || "/profilepic.svg"}
                         />
