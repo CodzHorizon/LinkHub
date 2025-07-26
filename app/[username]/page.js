@@ -4,10 +4,12 @@ import Image from "next/image";
 export default async function Page({ params }) {
     const { username } = await params;
 
+
     try {
         const client = await clientPromise;
         const db = client.db("linkit");
         const user = await db.collection("links").findOne({ username });
+        console.log(user.pic)
 
         if (!user) {
             return (
@@ -23,7 +25,6 @@ export default async function Page({ params }) {
                 </main>
             );
         }
-
         return (
             <div
                 className=" min-h-screen flex items-center justify-center p-4 pt-0 overflow-hidden flex-col gap-1.5"
